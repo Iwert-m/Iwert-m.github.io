@@ -1,6 +1,6 @@
-baseURL = ''
+baseURL = 'https://Iwert-m.github.io'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Iwerts blog'
 
 [markup]
 # (Optional) To be able to use all Prism plugins, the theme enables unsafe
