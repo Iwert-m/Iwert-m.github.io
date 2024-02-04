@@ -1,0 +1,128 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Iwert Machiels",
+    "label": "Software Engineering Consultant",
+    "picture": "",
+    "email": "iwert.m@gmail.com",
+    "phone": "",
+    "website": "",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Heverlee",
+      "countryCode": "BE",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Iwert Machiels",
+        "url": "https://www.linkedin.com/in/iwert-machiels/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "AE",
+      "location": "Leuven",
+      "description": "",
+      "position": "Technical Consultant",
+      "website": "https://www.ae.be/",
+      "startDate": "2022-09",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "company": "Twipe Mobile Solutions",
+      "location": "Leuven",
+      "description": "",
+      "position": "Software Engineer",
+      "website": "https://www.twipemobile.com/",
+      "startDate": "2021-07",
+      "endDate": "2022-09",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "KU Leuven",
+      "area": "Software Engineering",
+      "studyType": "Masters in Enineering Technology: Electronics-ICT",
+      "startDate": "2016-09",
+      "endDate": "2021-06"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Dutch",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Conversational speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "",
+      "website": "",
+      "roles": [],
+      "entity": "",
+      "type": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Mensura - Integration Layer",
+      "roles": [
+        "Software Engineer"
+      ],
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ]
+    }
+  ]
+}

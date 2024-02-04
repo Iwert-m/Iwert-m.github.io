@@ -1,6 +1,6 @@
 baseURL = 'https://Iwert-m.github.io'
-languageCode = 'en-us'
-title = 'Iwerts blog'
+languageCode = 'en'
+title = 'Iwert'
 
 [markup]
 # (Optional) To be able to use all Prism plugins, the theme enables unsafe
@@ -11,6 +11,11 @@ title = 'Iwerts blog'
 # The theme enables writeStats which is required for PurgeCSS
 _merge = "deep"
 
+# Tag Cloud
+[params.tagCloud]
+enable = true
+minFontSizeRem = 0.8
+maxFontSizeRem = 2.0
 # This hopefully will be simpler in the future.
 # See: https://github.com/schnerring/hugo-theme-gruvbox/issues/16
 [module]
