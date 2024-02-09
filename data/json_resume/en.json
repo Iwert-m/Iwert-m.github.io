@@ -2,18 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Iwert Machiels",
-    "label": "Software Engineering Consultant",
+    "label": "Software Engineer",
     "picture": "",
     "email": "iwert.m@gmail.com",
     "phone": "",
     "website": "",
-    "summary": "",
+    "summary": "Iwert is a technical consultant with a master's degree in engineering technology, electronics and ICT, at KULeuven. He has experience with the entire lifecycle of delivering software. From defining a new feature, developing, testing, to eventually deploying and releasing. He is mainly focused on back-end development and cloud computing, using both AWS and Azure. Iwert has experience in working with a multitude of technologies and tools. He likes to program in Go in his spare time. ",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Heverlee",
-      "countryCode": "BE",
-      "region": ""
+      "countryCode": "BE"
     },
     "profiles": [
       {
@@ -25,104 +21,45 @@
   },
   "work": [
     {
-      "company": "AE",
-      "location": "Leuven",
+      "company": "AE nv",
+      "location": "",
       "description": "",
       "position": "Technical Consultant",
-      "website": "https://www.ae.be/",
+      "website": "https://www.ae.be/en",
       "startDate": "2022-09",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
+      "endDate": "",
+      "summary": "Technical consultant mainly focused on .NET development and devops.",
+      "highlights": []
     },
     {
       "company": "Twipe Mobile Solutions",
-      "location": "Leuven",
+      "location": "",
       "description": "",
-      "position": "Software Engineer",
+      "position": "Junior Software Engineer",
       "website": "https://www.twipemobile.com/",
       "startDate": "2021-07",
       "endDate": "2022-09",
-      "summary": "",
-      "highlights": [
-        ""
-      ]
+      "summary": "The role was focused around maintaining 3 applications that each serve around 50-100 international newspapers.",
+      "highlights": []
     }
   ],
   "volunteer": [],
   "education": [
     {
       "institution": "KU Leuven",
-      "area": "Software Engineering",
-      "studyType": "Masters in Enineering Technology: Electronics-ICT",
+      "area": "Enineering Technology: Electronics-ICT",
+      "studyType": "Masters",
       "startDate": "2016-09",
-      "endDate": "2021-06"
+      "endDate": "2021-06",
+      "gpa": "",
+      "courses": []
     }
   ],
   "awards": [],
   "publications": [],
-  "skills": [
-    {
-      "name": "",
-      "level": "",
-      "keywords": [
-        ""
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Dutch",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Proficient speaker"
-    },
-    {
-      "language": "French",
-      "fluency": "Conversational speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "",
-      "keywords": [
-        ""
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "",
-      "reference": ""
-    },
-    {
-      "name": "",
-      "description": "",
-      "highlights": [],
-      "keywords": [],
-      "startDate": "",
-      "endDate": "",
-      "website": "",
-      "roles": [],
-      "entity": "",
-      "type": ""
-    }
-  ],
-  "projects": [
-    {
-      "name": "Mensura - Integration Layer",
-      "roles": [
-        "Software Engineer"
-      ],
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ]
-    }
-  ]
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": []
 }

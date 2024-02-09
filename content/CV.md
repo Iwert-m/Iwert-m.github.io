@@ -9,13 +9,7 @@ draft: false
 
 ## Experience
 
-### Work Experience
-
 {{< json-resume "work" >}}
-
-### Projects
-
-{{< json-resume "projects" >}}
 
 ## Education
 
