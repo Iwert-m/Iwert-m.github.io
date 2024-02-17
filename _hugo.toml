@@ -23,6 +23,7 @@ maxFontSizeRem = 2.0
 path = "github.com/schnerring/hugo-theme-gruvbox"
 [[module.imports]]
 path = "github.com/schnerring/hugo-mod-json-resume"
+
 [[module.mounts]]
 source = "data"
 target = "data"
