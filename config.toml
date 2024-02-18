@@ -6,6 +6,9 @@ title = 'Iwert'
 # (Optional) To be able to use all Prism plugins, the theme enables unsafe
 # rendering by default
 #_merge = "deep"
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [build]
 # The theme enables writeStats which is required for PurgeCSS
@@ -61,3 +64,41 @@ target = "static/fonts"
 [[module.mounts]]
 source = "node_modules/@tabler/icons/icons"
 target = "assets/tabler-icons"
+
+[menus]
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+[[menus.main]]
+name = 'Resume'
+pageRef = '/cv'
+weight = 20
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+weight = 30
+
+[params]
+[params.prism]
+languages = [
+  "markup",
+  "hcl",
+  "go",
+  "sql",
+  "yaml",
+  "git",
+  "bash",
+  "splunk-spl",
+  "powershell",
+  "csharp",
+]
+plugins = [
+  "autoloader",
+  "normalize-whitespace",
+  "toolbar",
+  "copy-to-clipboard",
+  "command-line",
+  "treeview",
+  "line-numbers",
+]
