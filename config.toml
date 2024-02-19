@@ -67,8 +67,12 @@ target = "assets/tabler-icons"
 
 [menus]
 [[menus.main]]
-name = 'Home'
-pageRef = '/'
+name = 'Recent posts'
+pageRef = '/posts'
+weight = 10
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
 weight = 10
 [[menus.main]]
 name = 'Resume'
@@ -78,6 +82,10 @@ weight = 20
 name = 'About'
 pageRef = '/about'
 weight = 30
+
+[params.logo]
+text = "ITstack"
+url = "/"
 
 [params]
 [params.prism]
