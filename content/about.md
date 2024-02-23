@@ -4,7 +4,12 @@ keywords: ["about", "iwert", "hugo"]
 draft: false 
 ---
 
-This website has been created using [Hugo](https://gohugo.io/), a static site generator written in Go. 
 
-The theme used is the [Gruvbox Hugo Theme](https://github.com/schnerring/hugo-theme-gruvbox).
+My name is Iwert Machiels and I am a technical consultant working at [AE](https://ae.be "AE").
 
+On this blog, I write about various topics related to software development and cloud computing.
+This includes articles about programming languages, frameworks, tools, cloud services and practices.
+
+
+#### About this blog
+This website has been created using [Hugo](https://gohugo.io/) and the [Gruvbox Hugo Theme](https://github.com/schnerring/hugo-theme-gruvbox).
