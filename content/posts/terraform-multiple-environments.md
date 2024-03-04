@@ -12,14 +12,16 @@ It allows to define your infrastructure as code and manage it in a version contr
 
 Getting [started with Terraform]({{< ref "./introduction-to-terraform.md" >}} "Introduction to Terraform") is easy enough, but as your infrastructure grows, 
 eventually there will be a need to manage multiple environments.
+The stateful nature of Terraform makes this a bit more tricky. 
 
-
+Let's look at some strategies to manage multiple environments using Terraform and compare them to each other.
 
 Throughout this post we will assume that you already have a CI/CD pipeline in place to deploy your infrastrucutre.
 Either through a service that handles your deploys and your state file for you or through a self managed setup.
 
 ## Using different folders for different environments
 
+<!--TODO-->
 
 #### Pros
 + Easy to understand
@@ -43,7 +45,8 @@ Suppose that we have the following 3 environments that we want to manage using T
 
 Changes should be promoted from dev -> test -> prod through a pull request.
 
-// TODO
+<!-- TODO -->
+
 Each of these long-lived branches is tracked using a separate workspace in Terraform cloud. In Terraform cloud:
 
 - Each workspace has a separate state file
@@ -73,3 +76,16 @@ Optionally a local variable can be used for for readability.
         var_name = lookup(var.var_name, var.environment)
     }
 ```
+
+#### Setting up the CI/CD pipeline
+<!-- TODO -->
+
+##### Pros
++ No risk of error when promoting changes
+
+##### Cons
+- More complex to set up
+- Relies on 
+
+## Terragrunt
+<!-- //TODO -->
